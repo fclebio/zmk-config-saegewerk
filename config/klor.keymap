@@ -267,11 +267,6 @@
             key-positions = <11 0>;
         };
 
-        bootloader1 {
-            bindings = <&bootloader>;
-            key-positions = <30 31>;
-        };
-
         back {
             bindings = <&kp BACKSPACE>;
             key-positions = <8 9>;
