@@ -284,11 +284,6 @@
             key-positions = <5 6>;
         };
 
-        CopyPaste {
-            bindings = <&hm K_PASTE K_COPY>;
-            key-positions = <23 24>;
-        };
-
         Math {
             bindings = <&sl 1>;
             key-positions = <30 31>;
