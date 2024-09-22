@@ -347,10 +347,10 @@
 
         Function {
             bindings = <
-        &kp C_BRI_DN     &kp C_BRI_UP     &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_MUTE                   &trans  &kp F9          &kp F10     &kp F11  &kp F12
-&trans  &kp K_BACK       &kp K_FORWARD    &kp C_PLAY         &kp C_PAUSE      &key_repeat                  &trans  &kp F5          &kp F6      &kp F7   &kp F8   &trans
-&trans  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &rgb_ug RGB_EFF    &trans           &trans       &trans  &trans  &trans  &kp F1          &kp F2      &kp F3   &kp F4   &trans
-                                          &bt BT_PRV         &bt BT_NXT       &trans       &trans  &trans  &trans  &bt BT_CLR_ALL  &bt BT_CLR
+        &kp C_BRI_DN     &kp C_BRI_UP     &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_MUTE                    &bt BT_SEL 0  &kp F9          &kp F10     &kp F11  &kp F12
+&trans  &kp K_BACK       &kp K_FORWARD    &kp C_PLAY         &kp C_PAUSE      &bt BT_SEL 4                  &bt BT_SEL 1  &kp F5          &kp F6      &kp F7   &kp F8   &trans
+&trans  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &rgb_ug RGB_EFF    &trans           &bt BT_SEL 3  &trans  &trans  &bt BT_SEL 2  &kp F1          &kp F2      &kp F3   &kp F4   &trans
+                                          &bt BT_PRV         &bt BT_NXT       &trans        &trans  &trans  &trans        &bt BT_CLR_ALL  &bt BT_CLR
             >;
         };
     };
