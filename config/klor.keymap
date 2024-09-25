@@ -338,10 +338,10 @@
 
         Nav {
             bindings = <
-        &kp PT_FEMININE_ORDINAL_INDICATOR  &kp PT_MASCULINE_ORDINAL_INDICATOR  &kp GRAVE     &kp PT_SQT           &kp DQT                                  &kp PT_BACKSLASH  &kp PAGE_DOWN   &kp PAGE_UP  &kp PT_DOLLAR     &kp PT_LEFT_BRACE
-&trans  &kp LEFT_SHIFT                     &kp PT_UNDERSCORE                   &kp PT_GRAVE  &kp PT_SINGLE_QUOTE  &kp PT_DOUBLE_QUOTES                     &kp LEFT_ARROW    &kp DOWN_ARROW  &kp UP       &kp RIGHT_ARROW   &kp RIGHT_SHIFT    &trans
+        &kp PT_FEMININE_ORDINAL_INDICATOR  &kp PT_MASCULINE_ORDINAL_INDICATOR  &kp GRAVE     &kp PT_SINGLE_QUOTE  &kp PT_DOUBLE_QUOTES                     &kp PT_BACKSLASH  &kp PAGE_DOWN   &kp PAGE_UP  &kp PT_DOLLAR     &kp PT_LEFT_BRACE
+&trans  &kp LEFT_SHIFT                     &kp PT_UNDERSCORE                   &kp PT_GRAVE  &kp PT_ACUTE         &kp PT_UMLAUT                            &kp LEFT_ARROW    &kp DOWN_ARROW  &kp UP       &kp RIGHT_ARROW   &kp RIGHT_SHIFT    &trans
 &trans  &kp PT_LESS_THAN                   &kp PT_EXCLAMATION                  &kp PT_EQUAL  &kp PT_GREATER_THAN  &kp PT_LEFT_PARENTHESIS  &trans  &trans  &kp PT_PIPE       &kp END         &kp HOME     &kp PT_SEMICOLON  &kp PT_COLON       &trans
-                                                                               &trans        &trans               &trans                   &trans  &trans  &trans            &trans          &trans
+                                                                               &kp PT_CENT   &kp PT_POUND_SIGN    &kp PT_SECTION           &trans  &trans  &kp PT_NOT        &trans          &trans
             >;
         };
 
