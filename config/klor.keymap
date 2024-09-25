@@ -327,10 +327,10 @@
 
         Math {
             bindings = <
-        &kp EXCL  &kp ASTRK  &kp PRCNT     &kp LPAR        &kp RPAR                         &kp FSLH   &kp N7  &kp N8  &kp N9  &kp N0
-&trans  &kp AT    &kp DLLR   &kp PT_CARET  &kp LBKT        &kp RBKT                         &kp ASTRK  &kp N4  &kp N5  &kp N6  &kp PLUS   &trans
-&trans  &kp AMPS  &kp DLLR   &kp POUND     &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans  &trans  &kp EQUAL  &kp N1  &kp N2  &kp N3  &kp MINUS  &trans
-                             &trans        &trans          &trans           &trans  &trans  &trans     &trans  &trans
+        &kp PT_EXCLAMATION  &kp PT_QUESTION  &kp PT_CARET                       &kp PT_LEFT_PARENTHESIS  &kp PT_RIGHT_PARENTHESIS                  &kp PT_SLASH     &kp PT_N7  &kp PT_N8  &kp PT_N9  &kp PT_N0
+&trans  &kp PT_AT_SIGN      &kp PT_DOLLAR    &kp PT_PERCENT                     &kp PT_LEFT_BRACKET      &kp PT_RIGHT_BRACKET                      &kp PT_ASTERISK  &kp PT_N4  &kp PT_N5  &kp PT_N6  &kp PT_PLUS   &trans
+&trans  &kp PT_AMPERSAND    &kp PT_ASTERISK  &kp PT_HASH                        &kp PT_LEFT_BRACE        &kp PT_RIGHT_BRACE        &trans  &trans  &kp PT_EQUAL     &kp PT_N1  &kp PT_N2  &kp PT_N3  &kp PT_MINUS  &trans
+                                             &kp PT_FEMININE_ORDINAL_INDICATOR  &kp PT_DEGREE            &trans                    &trans  &trans  &trans           &trans     &trans
             >;
 
             label = "Math";
@@ -338,10 +338,10 @@
 
         Nav {
             bindings = <
-        &kp GRAVE           &kp PT_GRAVE      &kp PT_APOSTROPHE  &kp PT_DOUBLE_QUOTES  &kp NUBS                   &kp PT_SLASH    &kp PAGE_DOWN   &kp PAGE_UP  &kp PT_QUESTION   &kp PT_EXCLAMATION
-&trans  &kp LEFT_SHIFT      &kp PT_SEMICOLON  &kp SINGLE_QUOTE   &kp DQT               &kp EQUAL                  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP       &kp RIGHT_ARROW   &kp RIGHT_SHIFT     &trans
-&trans  &kp PT_EXCLAMATION  &kp PIPE          &kp PT_SEMI        &kp LT                &kp GT     &trans  &trans  &kp PT_PIPE     &kp END         &kp HOME     &kp PT_SEMICOLON  &kp PT_COLON        &trans
-                                              &trans             &trans                &trans     &trans  &trans  &trans          &trans          &trans
+        &kp PT_FEMININE_ORDINAL_INDICATOR  &kp PT_MASCULINE_ORDINAL_INDICATOR  &kp GRAVE     &kp PT_SQT           &kp DQT                                  &kp PT_BACKSLASH  &kp PAGE_DOWN   &kp PAGE_UP  &kp PT_DOLLAR     &kp PT_LEFT_BRACE
+&trans  &kp LEFT_SHIFT                     &kp PT_UNDERSCORE                   &kp PT_GRAVE  &kp PT_SINGLE_QUOTE  &kp PT_DOUBLE_QUOTES                     &kp LEFT_ARROW    &kp DOWN_ARROW  &kp UP       &kp RIGHT_ARROW   &kp RIGHT_SHIFT    &trans
+&trans  &kp PT_LESS_THAN                   &kp PT_EXCLAMATION                  &kp PT_EQUAL  &kp PT_GREATER_THAN  &kp PT_LEFT_PARENTHESIS  &trans  &trans  &kp PT_PIPE       &kp END         &kp HOME     &kp PT_SEMICOLON  &kp PT_COLON       &trans
+                                                                               &trans        &trans               &trans                   &trans  &trans  &trans            &trans          &trans
             >;
         };
 
