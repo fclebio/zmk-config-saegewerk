@@ -338,10 +338,10 @@
 
         Nav {
             bindings = <
-        &kp GRAVE           &kp PT_GRAVE      &kp PT_SQT        &kp PT_DOUBLE_QUOTES  &kp NUBS                   &kp FSLH        &kp PAGE_DOWN   &kp PAGE_UP  &kp PT_QUESTION  &trans
-&trans  &kp PT_TILDE        &kp PT_SEMICOLON  &kp SINGLE_QUOTE  &kp DQT               &kp EQUAL                  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP       &kp RIGHT_ARROW  &trans  &trans
-&trans  &kp PT_EXCLAMATION  &kp PIPE          &kp PT_SEMI       &kp LT                &kp GT     &trans  &trans  &kp PT_COLON    &kp END         &kp HOME     &kp PT_QMARK     &trans  &trans
-                                              &trans            &trans                &trans     &trans  &trans  &trans          &trans          &trans
+        &kp GRAVE           &kp PT_GRAVE      &kp PT_APOSTROPHE  &kp PT_DOUBLE_QUOTES  &kp NUBS                   &kp PT_SLASH    &kp PAGE_DOWN   &kp PAGE_UP  &kp PT_QUESTION   &kp PT_EXCLAMATION
+&trans  &kp LEFT_SHIFT      &kp PT_SEMICOLON  &kp SINGLE_QUOTE   &kp DQT               &kp EQUAL                  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP       &kp RIGHT_ARROW   &kp RIGHT_SHIFT     &trans
+&trans  &kp PT_EXCLAMATION  &kp PIPE          &kp PT_SEMI        &kp LT                &kp GT     &trans  &trans  &kp PT_PIPE     &kp END         &kp HOME     &kp PT_SEMICOLON  &kp PT_COLON        &trans
+                                              &trans             &trans                &trans     &trans  &trans  &trans          &trans          &trans
             >;
         };
 
